@@ -11,8 +11,9 @@ exports.AdminSignup = async function (req, res, next) {
             status: "Success",
             message: "Admin Create SuccessFully!",
             data: adminCreate
-
         })
+
+
     } catch (error) {
         res.status(400).json({
             status: "Fail",
